@@ -57,12 +57,11 @@
 
     var greet;
 
-    greet = 'hello, it's  ';
+    greet = "hello,";
 
     document.getElementById('lbl').innerHTML = `
         <div class="container">
-          <div id="date"> ${date}</div>
-          <div class="greeting">${greet}</div>
+          greet+="<div id="date"> It's ${date}</div>";
         <div/>
     `;
 </script> 
